@@ -41,3 +41,4 @@ def perform_prime_factorization(num):
 
     return (factors)
 
+print(perform_prime_factorization(16))
