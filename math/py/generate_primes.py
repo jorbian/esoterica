@@ -17,4 +17,4 @@ def generate_prime_numbers(limit, start = 2):
 
     for i in range(start, int(sqrt(limit)) + 1, 2):
         if (is_prime(i)):
-            yield i
+            yield (i)

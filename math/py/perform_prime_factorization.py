@@ -19,10 +19,10 @@ def perform_prime_factorization(num):
 
         for i in range(start, int(sqrt(limit)) + 1, 2):
             if (is_prime(i)):
-                yield i
+                yield (i)
 
     if (is_prime(num)):
-        return factors
+        return (factors)
 
     primes = generate_prime_numbers(num)
 
